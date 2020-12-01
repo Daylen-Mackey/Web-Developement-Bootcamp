@@ -4,11 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+  <!-- Bootstrap Import -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> -->
+  <!-- Standard CSS sheet  -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Font awesome import -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
@@ -21,62 +28,75 @@
     <div class="container-fluid">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="#">tinDog</a>
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#">tindog</a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Download</a>
-          </li>
-    </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
 
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+      </nav>
 
 
-    <!-- Title -->
 
-    <div class='row'>
-      <div class=col-lg-6>
 
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+      <!-- Title -->
 
+      <div class='row'>
+        <div class=col-lg-6>
+
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-android"></i> Download</button>
+
+        </div>
+        <div class='col-lg-6'>
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
       </div>
-      <div class='col-lg-6'>
-        <img src="images/iphone6.png" alt="iphone-mockup">
-      </div>
-    </div>
 
     </div>
   </section>
 
 
   <!-- Features -->
-
+  <!-- Building out features section by myself  -->
   <section id="features">
+    <!-- Want to make 3 columns with single column after medium breakpoint  -->
+    <!-- Center text, add icon  -->
+    <div class="row">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+      <div class="col-lg-4 feature-container">
+        <i class="fas fa-check-circle fa-5x feature-icon"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      <div class="col-lg-4 feature-container">
+        <i class="fas fa-bullseye fa-5x feature-icon"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
 
+      <div class="col-lg-4 feature-container">
+        <i class="fas fa-heart fa-5x feature-icon heart-icon"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
   </section>
 
 
@@ -146,7 +166,7 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
+    <button type="btn">Download</button>
     <button type="button">Download</button>
 
   </section>

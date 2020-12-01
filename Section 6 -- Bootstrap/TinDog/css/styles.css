@@ -1,8 +1,15 @@
+body {
+font-family: 'Montserrat';
+
+}
 h1 {
-  font-family: 'Montserrat, sans-serif';
-  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-size: 4rem;
   line-height: 1.5;
   font-weight: 900;
+  color:white;
+  font-style: italic;
+
 }
 
 #title {
@@ -11,4 +18,97 @@ h1 {
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+padding: 0 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  /* font-family: "Ubuntu-Light" */
+
+}
+
+
+/* Download Buttons */
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+
+
+
+/* Title Image */
+
+
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+
+}
+
+
+/* Features Component  */
+
+#features{
+
+  text-align: center;
+  padding: 7% 15%;
+}
+
+
+.feature-container{
+  padding: 5%;
+
+}
+#features h3 {
+  font-weight: bold;
+}
+#features p {
+  color: #8f8f8f;
+}
+
+.feature-container * {
+  /* padding-bottom: .5rem; */
+}
+
+
+.feature-icon{
+  color: Tomato;
+  size : 4rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+  color:red;
+}
+/* I'd rather apply it to all of them */
+/*
+.heart-icon:hover{
+   color: #ff4c68;
+  color: red;
+
+
+}
+
+*/
+
+/* Testimonials Section */
+#testimonials{
+  background: #ff4c68;
 }
