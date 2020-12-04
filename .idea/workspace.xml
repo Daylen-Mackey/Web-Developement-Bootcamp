@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ec0ac3-ec27-4b44-bb9a-d207a555481c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Notes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/TechCrunch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/bizinsider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/dog-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/iphone6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/lady-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/mashable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/images/tnw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Section 6 -- Bootstrap/TinDog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/~WRL2084.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +33,10 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.loveCalculator.js">
+  <component name="RunManager" selected="Node.js.fizzbuz.js">
+    <configuration name="fizzbuz.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Section 9 and 10 -- Javascript ES6/fizzbuz.js" working-dir="$PROJECT_DIR$/Section 9 and 10 -- Javascript ES6">
+      <method v="2" />
+    </configuration>
     <configuration name="loveCalculator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Section 9 and 10 -- Javascript ES6/loveCalculator.js" working-dir="$PROJECT_DIR$/Section 9 and 10 -- Javascript ES6">
       <method v="2" />
     </configuration>
@@ -52,6 +45,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.fizzbuz.js" />
         <item itemvalue="Node.js.loveCalculator.js" />
         <item itemvalue="Node.js.variablesExcercise.js" />
       </list>
@@ -67,7 +61,7 @@
       <updated>1606967394539</updated>
       <workItem from="1606967396766" duration="873000" />
       <workItem from="1606970349912" duration="839000" />
-      <workItem from="1606972816093" duration="870000" />
+      <workItem from="1606972816093" duration="5610000" />
     </task>
     <servers />
   </component>
