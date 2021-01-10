@@ -6,4 +6,4 @@
 *.xml
 .idea/workspace.xml
 *.xml
-Section 19*--*Express.js/CalculatorProject/node_modules/
+node_modules/
